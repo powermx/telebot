@@ -1,44 +1,52 @@
   ![](https://raw.githubusercontent.com/powermx/telebot/main/telebot.jpg)
 
-Bot para Telegram
+##Bot para Telegram
 
 
 #### Instalacion
 
-NodeJS Latest:
+#NodeJS Latest:
 
 ```
 wget https://raw.githubusercontent.com/powermx/NodeJS/master/nodejs21 && bash nodejs21
 ```
 
-Instalar Repositorio:
+#Instalar Repositorio:
 ```
 git clone https://github.com/powermx/telebot.git
 ```
 
-Instalar paquetes:
+#Instalar paquetes:
 ```
 cd telebot
 npm install
 ```
 
-Edición 
+#Edición 
 Necesitas editar tu TOKEN generado con BotFather en Telegram
 - BotFather: [`Crear Token`](https://t.me/BotFather)
 ```
 const token = 'TUTOKEN'
 ```
 
-Iniciando el Bot:
+#Iniciando el Bot:
 ```
 npm start
 ```
 
-Iniciado Permanente
-pm2 start index.js
+#Iniciado Permanente
+Instala la dependencia: pm2
+```
+npm i pm2 -g
+```
 
-Detener el bot
-pm2 stop 0
+Inicio permanente 
+
+`pm2 start index.js`
+
+Detener el bot 
+
+`pm2 stop 0`
 
 
 

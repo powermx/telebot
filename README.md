@@ -4,7 +4,7 @@
 
 > Este bot funciona perfectamente en termux o un vps para trabajar 24/7
 
-#### Instalación
+## Instalación
 
 ## NodeJS Latest:
 

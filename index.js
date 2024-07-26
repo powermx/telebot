@@ -1,6 +1,6 @@
 // Index
 // Telebot - NodeJS
-// Telegram - PowerMX
+// Telegram - PowerMX 
 
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');

@@ -1,6 +1,6 @@
   ![](https://raw.githubusercontent.com/powermx/telebot/main/telebot.jpg)
 
-## Bot para Telegram basado en NodeJS
+## Bot para Telegram basado en NodeJS 
 
 > Este bot funciona perfectamente en termux o un vps para trabajar 24/7
 

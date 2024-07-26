@@ -1,4 +1,4 @@
-  ![](https://github.com/powermx/AMXADM/raw/master/banneradm.png)
+  ![](https://raw.githubusercontent.com/powermx/telebot/main/telebot.jpg)
 
 Bot para Telegram
 

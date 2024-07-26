@@ -1,7 +1,7 @@
   ![](https://raw.githubusercontent.com/powermx/telebot/main/telebot.jpg)
 
 Bot para Telegram
-[Telegram Group](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/vpnmx)
+[![Telegram Group](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/vpnmx)
 
 #### Instalacion
 

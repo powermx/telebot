@@ -1,6 +1,6 @@
   ![](https://raw.githubusercontent.com/powermx/telebot/main/telebot.jpg)
 
-##Bot para Telegram
+##Bot para Telegram basado en NodeJS
 
 
 #### Instalacion
@@ -49,9 +49,17 @@ Detener el bot
 `pm2 stop 0`
 
 
+Este es un bot base para ser utilizado en grupos o privado, se pueden seguir añadiendo funciones al bot, creando archivos dentro de la carpeta "commands".
+
+En el grupo de telegram, seguiremos compartiendo funciones para tu bot, si tienes funciones para compartir, lo puedes realizar en el grupo.
+
 
 
 > Telebot by PowerMX | [![Telegram Group](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/vpnmx)
                 
 ----
 Made with NodeJS ♥
+
+Agradecimientos:
+
+Yagop - https://www.npmjs.com/package/node-telegram-bot-api

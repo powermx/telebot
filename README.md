@@ -1,7 +1,7 @@
   ![](https://raw.githubusercontent.com/powermx/telebot/main/telebot.jpg)
 
 Bot para Telegram
-[![Telegram Group](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/vpnmx)
+
 
 #### Instalacion
 
@@ -43,7 +43,7 @@ pm2 stop 0
 
 
 
-> Telebot by PowerMX | https://t.me/vpnmx
+> Telebot by PowerMX | [![Telegram Group](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/vpnmx)
                 
 ----
 Made with NodeJS ♥

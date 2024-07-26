@@ -1,7 +1,8 @@
   ![](https://raw.githubusercontent.com/powermx/telebot/main/telebot.jpg)
 
 Bot para Telegram
-[![Click Aquí](https://img.shields.io/badge/Telebot?style=for-the-badge&logo=telegram&logoColor=blue)](https://t.me/vpnmx)
+[Telegram Group](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/vpnmx)
+
 #### Instalacion
 
 NodeJS Latest:

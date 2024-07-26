@@ -1,4 +1,4 @@
-// commands/menu.js
+// commands/menu.js 
 const fs = require('fs');
 module.exports = (bot) => {
   bot.onText(/\/menu|start$/, (msg) => {

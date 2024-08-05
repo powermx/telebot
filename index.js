@@ -21,6 +21,21 @@ fs.readdirSync(commandsPath).forEach(file => {
   const command = require(path.join(commandsPath, file));
   command(bot, token, fs, DB, axios, fetch, fetchJson, path, https, exec);
 });
+/* UPTIME */ 
+
+bot.onText(/\/uptime/, (msg) => {
+  const chatId = msg.chat.id;
+  const uptimeInSeconds = process.uptime();
+  const uptimeFormatted = formatUptime(uptimeInSeconds);
+  bot.sendMessage(chatId, `Uptime: ${uptimeFormatted}`);
+});
+
+function formatUptime(uptimeInSeconds) {
+  const hours = Math.floor(uptimeInSeconds / 3600);
+  const minutes = Math.floor((uptimeInSeconds % 3600) / 60);
+  const seconds = Math.floor(uptimeInSeconds % 60);
+  return `${hours} hours, ${minutes} minutes y ${seconds} seconds`;
+}
 
 /* POLLING END */
 

@@ -19,7 +19,7 @@ const bot = new TelegramBot(token, { polling: true });
 const commandsPath = path.join(__dirname, 'commands');
 fs.readdirSync(commandsPath).forEach(file => {
   const command = require(path.join(commandsPath, file));
-  command(bot, token, fs, DB, axios, fetch, fetchJson, path, https, exec);
+  command(bot, token, fs, DB, axios, fetch, path);
 });
 /* UPTIME */ 
 
